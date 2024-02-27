@@ -1,0 +1,99 @@
+*{
+    margin:0px;
+    padding:0px;
+  }
+  .myApp {
+    background-color: #020202;
+    min-height: 100vh;
+    color:aliceblue;
+    padding-bottom: 20px;
+  }
+  .header{
+    color:red;
+    display: inline;
+   }
+  .header_op{
+    display: inline-flex;
+    margin-left: 1000px;
+    color: red;
+  }
+  .home{
+    padding-left: 15px;
+  }
+  .menu{
+    padding-left: 15px;
+  }
+  .order{
+    padding-left: 15px;
+  }
+  .aboutus{
+    padding-left: 15px;
+  }
+  .image1{
+    height: 500px;
+    width: 900px;
+  }
+  .image_div{
+    display: block;
+    text-align: center;
+    margin-top: 40px;
+  }
+  .deals_text{
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    color: red;
+  }
+  .deals_img1{
+    margin-left: 100px;
+    height: 200px;
+    width: 400px;
+  }
+  .deals_img2{
+    height: 200px;
+    width: 400px;
+    margin-left: 20px;
+  }
+  .deals_Img3{
+    height: 200px;
+    width: 400px;
+    margin-left: 20px;
+  }
+  .pizza_Pa{
+    margin-left: 200px ;
+    color: red;
+    display: inline-block;
+    width:150px;
+    margin-top: 10px;
+  }
+  .pizza_Ct{
+    margin-left: 290px ;
+    color: red;
+    display: inline-block;
+    width:170px
+  }
+  .pizza_Tc{
+    margin-left: 210px ;
+    color: red;
+    display: inline-block;
+    width:300px
+  }
+  .footer{
+    color: red;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .insta{
+    color: red;
+    margin-left: 150px;
+    margin-top: 10px;
+    display: inline;
+  }
+  .id{
+    color: aliceblue;
+  }
+  .hr{
+    margin-top: 10px;
+  }
+  
+  

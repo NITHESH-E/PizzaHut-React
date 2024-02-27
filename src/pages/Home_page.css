@@ -1,0 +1,17 @@
+.body{
+    background-color: #020202;
+    min-height: 100vh;
+}
+
+.headerimg{
+    margin-top: 20px;
+    width: 900px;
+    height:400px;
+    margin-bottom: 20px;
+}
+.imgdiv{
+    text-align: center;
+}
+.hrLine{
+    background-color: white
+}

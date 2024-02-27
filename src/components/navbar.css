@@ -1,0 +1,38 @@
+.nav-bar{
+    height: 80px;
+    width: 1536px;
+    background-color: rgb(0, 0, 0);
+    padding-bottom: 5px;
+    display:flex;
+    flex-wrap: wrap;
+    
+}
+
+.Logo{
+    display:inline;
+    padding-left:10px;
+    color:red;
+    padding-right:600px;
+    flex-wrap: wrap;
+
+}
+
+.nav{
+    display:inline-flex;
+    width:700px;
+    justify-content:space-around;
+    color:red;
+    flex-wrap: wrap;
+}
+.new:hover{
+    color: aliceblue;
+}
+.menu:hover{
+    color: aliceblue;
+}
+.order:hover{
+    color: aliceblue;
+}
+.aboutus:hover{
+    color: aliceblue;
+}
