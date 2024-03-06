@@ -1,0 +1,37 @@
+.Fbody{
+    color: red;
+    background-color: #020202;
+    padding-bottom: 20px;
+
+}
+.follow{
+    display: flex;
+    margin-top: 20px;
+}
+.line{
+    color: aliceblue;
+    padding-right: 10px;
+}
+.insta{
+    margin-right: 15px;
+    margin-left: 10px;
+}
+.insta:hover{
+    color: aliceblue;
+}
+.facebook
+{
+    margin-right: 15px;
+}
+.facebook:hover{
+    color: aliceblue;
+}.twitter:hover{
+    color: aliceblue;
+}
+@media only screen and (max-width:1000px) {
+
+    .Fbody{
+        font-size: x-small;
+    }
+    
+}

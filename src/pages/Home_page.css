@@ -5,13 +5,59 @@
 
 .headerimg{
     margin-top: 20px;
-    width: 900px;
-    height:400px;
+    width: 70%;
+    height:30%;
     margin-bottom: 20px;
 }
+
 .imgdiv{
     text-align: center;
 }
 .hrLine{
     background-color: white
+}
+.deals{
+    color: red;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.deals_img{
+    display: flex;
+    flex-wrap: wrap;
+    color: red;
+    padding-bottom: 20px;
+    cursor: pointer;
+}
+.dealsimg1:hover
+{
+    border-radius: 5%;
+    border-width: 2px;
+    border-color: aliceblue;
+    border-style: solid;
+    padding-right: 15px;
+    background-color: aliceblue;
+}
+
+.dealsimg1{
+    width: 30%;
+    height: 15%;
+    margin-left: 20px;
+    padding-left: 15px;
+    padding-bottom: 20px;
+     
+}
+.dealsimg2{
+    width: 30%;
+    height: 15%;
+}
+.dealsimg3{
+    width: 30%;
+    height: 15%;
+}
+@media only screen and (max-width:1000px) {
+
+    .deals{
+        font-size: x-small;
+    }
+    
 }
