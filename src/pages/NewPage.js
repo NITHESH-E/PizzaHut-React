@@ -1,13 +1,13 @@
 import React from "react"
-import pizzaCon from '../components/pizza'
-import Listing from '../components/listing'
+import './NewPages.css'
+import Navbar from "../components/Navbar"
 
 function NewPage() {
     
   return (
-    <div>
-        <Listing/>
-        <pizzaCon/>
+    <div className="maindiv">
+       <Navbar/>
+       <hr/>
     </div>
   )
 }

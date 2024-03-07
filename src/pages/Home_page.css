@@ -31,10 +31,9 @@
 .dealsimg1:hover
 {
     border-radius: 5%;
-    border-width: 2px;
+    border-width: 5px;
     border-color: aliceblue;
     border-style: solid;
-    padding-right: 15px;
     background-color: aliceblue;
 }
 
@@ -42,8 +41,7 @@
     width: 30%;
     height: 15%;
     margin-left: 20px;
-    padding-left: 15px;
-    padding-bottom: 20px;
+    margin-bottom: 20PX;
      
 }
 .dealsimg2{

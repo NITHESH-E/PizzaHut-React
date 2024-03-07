@@ -18,6 +18,7 @@
 }
 .insta:hover{
     color: aliceblue;
+    cursor: pointer;
 }
 .facebook
 {
@@ -25,8 +26,10 @@
 }
 .facebook:hover{
     color: aliceblue;
+    cursor: pointer;
 }.twitter:hover{
     color: aliceblue;
+    cursor: pointer;
 }
 @media only screen and (max-width:1000px) {
 

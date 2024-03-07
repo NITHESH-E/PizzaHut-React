@@ -2,7 +2,9 @@
     margin:0px;
 }
 .Logo{
-    color: red;;
+    color: red;
+    cursor: pointer;
+    padding-left: 5px;
 }
 .jusB{
     display: flex;
