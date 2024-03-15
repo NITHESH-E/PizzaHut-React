@@ -3,7 +3,7 @@ import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import './App.css';
 import {BrowserRouter,Routes,Route} from 'react-router-dom'
-import NewPage from './pages/NewPage';
+import {NewPage }from './pages/NewPage';
 import Menupage from './components/Menupage';
 import Order from './components/Order';
 import Aboutus from './components/Aboutus';

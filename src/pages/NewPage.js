@@ -1,28 +1,32 @@
-import React from "react"
-import './NewPages.css'
-import Navbar from "../components/Navbar"
-import deals_img1 from './deals_img1.jpg';
-import SlidePage from "./SlidePage";
+import React from 'react';
+import Navbar from '../components/Navbar';
+import SlidePage from './SlidePage';
+import Pizza_details from './pizza_details'; // Assuming this contains an array of pizza details
+import Listing from './Listing';
 
-function NewPage() {
-    
+const renderListings = Pizza_details.map((pizza) => (
+  <Listing
+    Title={pizza.Title}
+    price={pizza.price}
+    img={pizza.img}
+  />
+));
+export const NewPage = () => {
+  
+
   return (
     <div className="maindiv">
-      <div>
-       <Navbar/>
-       </div>
+      <Navbar />
       <div className="header">
-      <SlidePage/>
+        <SlidePage />
       </div>
       <div className="header_text">
-        <h1>Newly lanuched Pizza's</h1>
-      </div>
-      <div>
-        
-        
+        <h1>Newly launched Pizza's</h1>
+        <div className='flex justify-between flex-row'>
+          {renderListings}
+          
+        </div>
       </div>
     </div>
-  )
-}
-
-export default NewPage
+  );
+};

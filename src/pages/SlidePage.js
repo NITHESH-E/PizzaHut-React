@@ -13,7 +13,8 @@ function SlidePage() {
                 {`
                     .carousel {
                         max-width: 1000px; /* Adjust this value as needed */
-                        margin: auto; /* Centers the carousel */
+                        margin-top:20px;
+                        margin-left:17% /* Centers the carousel */
                     }
                     .carousel-item img {
                         max-height: 450px; /* Adjust this value to control the height of carousel images */
