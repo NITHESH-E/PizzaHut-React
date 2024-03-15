@@ -14,9 +14,10 @@
 
 .nav-bar{
     display: flex;
+    
     justify-content: space-between;
     background-color: black;
-    height: 20%;
+    height: 5%;
     width: 100%;
 }
 .nav{

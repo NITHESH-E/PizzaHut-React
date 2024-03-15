@@ -6,16 +6,23 @@ import deals_img1 from './deals_img1.jpg';
 import deals_img2 from './deals_img2.jpg';
 import deals_img3 from './deals_Img3.jpg';
 import Footer from '../components/Footer';
+import { Carousel } from 'react-bootstrap';
+import SlidePage from './SlidePage';
+
+
 
 function Home_page() {
   return (
     <div className="body">
         <div><Navbar/></div>
-        <><hr/></>
+        
         <div className="imgdiv">
             <img className="headerimg" src={Header_img}/>
         </div>
-        <hr className="hrLine" size="5"/>
+        <div>
+          <carousel_page/>
+        </div>
+        
         <div className="offer"></div>
         <div> <h1 className='deals'>Our most popular deals</h1></div>
         <div className='deals_img'>
