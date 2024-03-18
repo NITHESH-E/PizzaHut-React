@@ -1,64 +1,91 @@
-*{
-    margin:0px;
+* {
+    margin: 0px;
 }
-.Logo{
+
+.Logo {
     color: red;
     cursor: pointer;
     padding-left: 5px;
+    padding-top: 5px;
+    
+
+    font-family: "Alfa Slab One", serif;
+    font-weight: 400;
+    font-style: normal;
+
 }
-.jusB{
+
+.jusB {
     display: flex;
     justify-content: space-between;
 }
 
 
-.nav-bar{
+.nav-bar {
     display: flex;
-    
+
     justify-content: space-between;
     background-color: black;
-    height: 5%;
+    
     width: 100%;
 }
-.nav{
+
+.nav {
     padding-top: 5px;
     color: red;
     display: flex;
-    
+   
+   
+        font-family: "Young Serif", serif;
+        font-weight: 400;
+        font-style: normal;
+      
+      
+      
+
 }
-.new{
-    padding-right: 15px;
+
+.new {
+    padding-right: 25px;
     cursor: pointer;
 }
-.menu{
-    padding-right: 15px;
+
+.menu {
+    padding-right: 25px;
     cursor: pointer;
 }
-.order{
-    padding-right: 15px;
+
+.order {
+    padding-right: 25px;
     cursor: pointer;
 }
-.aboutus{
-    padding-right: 31px;
+
+.aboutus {
+    padding-right:25px ;
     cursor: pointer;
 }
-.new:hover{
+
+.new:hover {
     color: aliceblue;
 }
-.menu:hover{
+
+.menu:hover {
     color: aliceblue;
 }
-.order:hover{
-    color:aliceblue
+
+.order:hover {
+    color: aliceblue
 }
-.aboutus:hover{
+
+.aboutus:hover {
     color: aliceblue;
 }
+
 @media only screen and (max-width:1000px) {
 
-    .nav-bar{
+    .nav-bar {
         height: 100%;
         font-size: xx-small;
     }
-    
+
 }

@@ -13,5 +13,9 @@
      color: red;
 }
 .image_gallery{
+    color: red; 
+}
+.render{
     color: red;
+    display: flex;
 }

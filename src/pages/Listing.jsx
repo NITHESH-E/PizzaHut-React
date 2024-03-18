@@ -1,15 +1,18 @@
 import React from 'react'
+import './Listing.css'
 
-const Listing = (props) => {
-    return(
-        <div>
-        <p>{props.Title}</p>
-        <img src={props.img}/>
-        <p>{props.price}</p>
-        </div>
-    )
+export function Listing({
+    title,
+    price,
+    img
 }
-export default Listing;
+    
+) {
+  return (
+    <div className='flex flex-row justify-between'><img  className="img_N"src ={img}></img>{title},{price}</div>
+    
+  )
+}
 
 
 

@@ -7,20 +7,20 @@ const Pizza_details=[
     {
         id: 1,
         Title:"pizza1",
-        img:{deals_img1},
+        img: deals_img1,
         price: 200  
         
     },
     {
         id: 2,
         Title:"pizza2",
-        img:{deals_img2},
+        img:deals_img2,
         price: 200   
     },
     {
         id: 3,
         Title:"pizza3",
-        img:{deals_img1},
+        img:deals_img3,
         price: 200  
     },
 ]

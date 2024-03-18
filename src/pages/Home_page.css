@@ -10,16 +10,20 @@
     margin-bottom: 20px;
 }
 
+
 .imgdiv{
     text-align: center;
 }
-.hrLine{
-    background-color: white
-}
+
 .deals{
     color: red;
     text-align: center;
     padding-bottom: 20px;
+        font-family: "Sree Krushnadevaraya", serif;
+        font-weight: 400;
+        font-style: normal;
+      
+      
 }
 .deals_img{
     display: flex;
@@ -39,8 +43,7 @@
     width: 30%;
     height: 15%;
     margin-left: 20px;
-    margin-bottom: 20PX;
-     
+    margin-bottom: 20px;
 }
 .dealsimg2{
     width: 20%;

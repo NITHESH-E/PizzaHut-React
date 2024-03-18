@@ -4,6 +4,7 @@ import './Footer.css'
 function Footer() {
   return (
     <div className='Fbody'>
+      
         <h1 className="contact">Follow us on 👇</h1>
         <div className="follow">
         <h2 className='insta'>Instagram </h2>

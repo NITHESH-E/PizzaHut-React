@@ -14,13 +14,13 @@ import SlidePage from './SlidePage';
 function Home_page() {
   return (
     <div className="body">
-        <div><Navbar/></div>
-        
+        <div>
+        <Navbar/>
+        </div>
         <div className="imgdiv">
             <img className="headerimg" src={Header_img}/>
         </div>
         <div>
-          <carousel_page/>
         </div>
         
         <div className="offer"></div>
