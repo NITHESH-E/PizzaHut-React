@@ -9,7 +9,15 @@ export function Listing({
     
 ) {
   return (
-    <div className='flex flex-row justify-between'><img  className="img_N"src ={img}></img>{title},{price}</div>
+    <div className='Main'>
+    <div><img  className="img_N"src ={img}></img></div>
+    <div className='list-T'>
+      {title}
+      <br/>
+      {price}
+    </div>
+    </div>
+    
     
   )
 }

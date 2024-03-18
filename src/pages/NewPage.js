@@ -24,9 +24,10 @@ export const NewPage = () => {
       <div className="header_text">
         <h1>Newly launched Pizza's</h1>
       </div>
-      <div className=' render flex justify-between flex-row'>
+      <div className=' render '>
           {renderListings}
         </div>
+        
     </div>
   );
 };
