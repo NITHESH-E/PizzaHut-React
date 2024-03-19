@@ -4,7 +4,8 @@ import './Listing.css'
 export function Listing({
     title,
     price,
-    img
+    img,
+    size
 }
     
 ) {
@@ -12,9 +13,11 @@ export function Listing({
     <div className='Main'>
     <div><img  className="img_N"src ={img}></img></div>
     <div className='list-T'>
-      {title}
+    <h2>  Pizza: {title} </h2>
       <br/>
-      {price}
+      <p> Price: {price} </p>
+      <br/>
+      <p>Size Available in: {size}</p>
     </div>
     </div>
     

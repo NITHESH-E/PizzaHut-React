@@ -8,9 +8,12 @@
     color: red;
 }
 .header_text{
-    margin-top: 10px;
+    margin-top: 15px;
     text-align: center;
      color: red;
+     font-family: "Sree Krushnadevaraya", serif;
+     font-weight: 400;
+     font-style: normal;
 }
 .image_gallery{
     color: red; 

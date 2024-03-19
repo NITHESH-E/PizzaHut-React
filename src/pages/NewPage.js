@@ -12,6 +12,7 @@ export const NewPage = () => {
       title={pizza.Title}
       price={pizza.price}
       img={pizza.img}
+      size={pizza.size}
     />
   ));
 
