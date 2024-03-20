@@ -18,9 +18,11 @@
 .image_gallery{
     color: red; 
 }
+
 .render{
     color: red;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    margin-bottom: 15px;
 }

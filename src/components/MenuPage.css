@@ -2,3 +2,8 @@
     background-color: #020202;
     min-height: 100vh;
 }
+.menus{
+    text-align: center;
+    color: red;
+    padding: 10px;
+}

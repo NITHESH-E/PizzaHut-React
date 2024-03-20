@@ -6,12 +6,19 @@
     font-family: "Sree Krushnadevaraya", serif;
     font-weight: 400;
     font-style: normal;
-
+    
 }
+.contact{
+    color: aliceblue;
+}
+
 .follow{
     display: flex;
     margin-top: 20px;
+    padding-left: 63px
+
 }
+
 .line{
     color: aliceblue;
     padding-right: 10px;

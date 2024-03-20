@@ -4,6 +4,7 @@ import SlidePage from './SlidePage';
 import Pizza_details from './pizza_details'; // Assuming this contains an array of pizza details
 import { Listing } from './Listing';
 import './NewPages.css'
+import Footer from '../components/Footer';
 
 export const NewPage = () => {
   const renderListings = Pizza_details.map((pizza) => (
@@ -28,7 +29,7 @@ export const NewPage = () => {
       <div className=' render '>
           {renderListings}
         </div>
-        
+        <Footer/>
     </div>
   );
 };
