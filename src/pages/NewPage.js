@@ -10,7 +10,7 @@ export const NewPage = () => {
   const renderListings = Pizza_details.map((pizza) => (
     <Listing
       
-      title={pizza.Title}
+      Title={pizza.Title}
       price={pizza.price}
       img={pizza.img}
       size={pizza.size}
@@ -26,7 +26,7 @@ export const NewPage = () => {
       <div className="header_text">
         <h1>Newly launched Pizza's</h1>
       </div>
-      <div className=' render '>
+      <div className='render  '>
           {renderListings}
         </div>
         <Footer/>

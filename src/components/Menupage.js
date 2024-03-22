@@ -3,11 +3,12 @@ import Navbar from './Navbar'
 import Pizza_details from '../pages/pizza_details';
 import { Listing } from '../pages/Listing'
 import './MenuPage.css'
+import Footer from './Footer'
 function Menupage() {
   const renderListings = Pizza_details.map((pizza) => (
     <Listing
 
-      title={pizza.Title}
+      Title={pizza.Title}
       price={pizza.price}
       img={pizza.img}
       size={pizza.size}
@@ -26,6 +27,9 @@ function Menupage() {
 
       <div className='render'>
         {renderListings}
+      </div>
+      <div>
+        <Footer/>
       </div>
 
       

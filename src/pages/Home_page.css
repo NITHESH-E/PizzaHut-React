@@ -53,10 +53,3 @@
     width: 30%;
     height: 15%;
 }
-@media only screen and (max-width:1000px) {
-
-    .deals{
-        font-size: x-small;
-    }
-    
-}

@@ -25,4 +25,16 @@
     flex-wrap: wrap;
     justify-content: space-around;
     margin-bottom: 15px;
+    cursor: pointer;
 }
+@media only screen and (max-width:1000px) {
+
+    .render{
+        flex-direction: column;
+       
+    }
+    
+}
+
+
+

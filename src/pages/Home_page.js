@@ -7,7 +7,7 @@ import deals_img2 from './deals_img2.jpg';
 import deals_img3 from './deals_Img3.jpg';
 import Footer from '../components/Footer';
 import { Carousel } from 'react-bootstrap';
-import SlidePage from './SlidePage';
+
 
 
 

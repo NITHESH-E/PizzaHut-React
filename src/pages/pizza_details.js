@@ -64,7 +64,7 @@ const Pizza_details=[
         Title:"Tomato pie",
         img:pizza_img3,
         price: 250,
-        size: "<small/Medium/regular>"  
+        size: "small, Medium, regular"  
     },
     {
         id: 9,

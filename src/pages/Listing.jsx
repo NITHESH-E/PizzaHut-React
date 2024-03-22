@@ -2,7 +2,7 @@ import React from 'react'
 import './Listing.css'
 
 export function Listing({
-    title,
+    Title,
     price,
     img,
     size
@@ -10,12 +10,12 @@ export function Listing({
     
 ) {
   return (
-    <div className='Main'>
-    <div><img  className="img_N"src ={img}></img></div>
+    <div className='Main m-3 wid  items-center rounded-2 flex'>
+    <div className='wid2 items-center flex justify-center'><img className="wid2" src={img}></img></div>
     <div className='list-T'>
-    <h2>  Pizza: {title} </h2>
+    <h2 className='title'>  Pizza: {Title} </h2>
       <br/>
-      <p> Price: {price} </p>
+      <p > Price: {price} </p>
       <br/>
       <p>Size Available in: {size}</p>
     </div>

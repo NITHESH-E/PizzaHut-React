@@ -3,15 +3,26 @@
     margin-left: 25px;
     margin-top: 30px;
     cursor: pointer;
-    border-radius: 5px;
-    border-style: solid;
-    border-color: gray;
-    border-width: 5px;
- 
 }
-.img_N:hover{
+.Main{
+    background: #454545;
+    
+}
+.Main:hover{
     transform: scale(0.9);
+    transition-duration: 500ms ease-in-out;
 
+}
+.title{
+    color: aliceblue;
+}
+
+.wid2{
+    max-width: 100%;
+}
+
+.wid{
+    max-width: 25%;
 }
 .list-T{
     margin-top: 2px;
@@ -20,5 +31,7 @@
     font-family: "Sree Krushnadevaraya", serif;
     font-weight: 400;
     font-style: normal;
+    color: aliceblue;
 }
+
 

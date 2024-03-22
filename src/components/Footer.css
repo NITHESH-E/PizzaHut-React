@@ -1,8 +1,8 @@
 .Fbody{
     
     color: red;
-    background-color: #020202;
-    padding-bottom: 20px;
+    background-color: #454545;
+   height: 200px;
     font-family: "Sree Krushnadevaraya", serif;
     font-weight: 400;
     font-style: normal;
@@ -10,12 +10,12 @@
 }
 .contact{
     color: aliceblue;
+    margin-top: 3px;
 }
 
 .follow{
     display: flex;
-    margin-top: 20px;
-    padding-left: 63px
+    justify-content: center;
 
 }
 
