@@ -1,0 +1,13 @@
+.searchbox{
+    position: relative;
+    left:30%;
+    height: 10%;
+    background-color: #454545;
+    color:white;
+    width: 40%;
+    margin-bottom:2% ;
+    font-weight: 400;
+    font-family: "Alfa Slab One", serif;
+    font-style: normal;
+    text-transform: capitalize;
+}

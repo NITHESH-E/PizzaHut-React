@@ -1,0 +1,15 @@
+.full{
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.left{
+    background-color: #000000;
+    min-height: 100vh;
+    color:aqua
+}
+.right{
+    background-color: #e5cfcf;
+    min-height: 100vh;
+    color: aliceblue;
+}

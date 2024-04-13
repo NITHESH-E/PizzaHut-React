@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 * {
     margin: 0px;
 }
@@ -23,12 +27,11 @@
 
 .nav-bar {
     display: flex;
-
     justify-content: space-between;
     background-color: black;
-    
     width: 100%;
 }
+
 
 .nav {
     padding-top: 5px;
@@ -36,18 +39,15 @@
     display: flex;
    
    
-        font-family: "Young Serif", serif;
-        font-weight: 400;
-        font-style: normal;
-      
-      
-      
-
+    font-family: "Jockey One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .new {
     padding-right: 25px;
     cursor: pointer;
+    
 }
 
 .menu {

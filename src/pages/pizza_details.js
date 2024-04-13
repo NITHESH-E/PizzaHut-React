@@ -1,4 +1,5 @@
 
+
 import deals_img1 from './deals_img1.jpg';
 import deals_img2 from './deals_img2.jpg';
 import deals_img3 from './deals_Img3.jpg';

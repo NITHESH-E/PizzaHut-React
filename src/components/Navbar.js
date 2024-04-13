@@ -1,5 +1,6 @@
 import { useNavigate } from 'react-router';
 import './navbar.css'
+import { Search } from 'lucide-react';
 
 function Navbar(){
     
@@ -22,10 +23,11 @@ function Navbar(){
     }
     return(
         <div className="nav-bar">
-            <div className="Logo">
+            <div className="Logo text-3xl">
                 <h1 onClick={handleClick5}>PizzaBox</h1>
             </div>
-            <div className="nav jusB">
+
+            <div className="nav jusB text-3xl">
                 <h2 className="new" onClick={handleClick1}>New</h2>
                 <h2 className="menu" onClick={handleClick2}>Menu</h2>
                 <h2 className="order" onClick={handleClick3}>Order</h2>

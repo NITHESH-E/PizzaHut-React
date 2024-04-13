@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./src/**/*.{html,js}"],
+  content: ["./src/**/*.{html,js,jsx}"],
   theme: {
     colors: {
       transparent: 'transparent',
@@ -13,7 +13,8 @@ module.exports = {
       'silver': '#ecebff',
       'bubble-gum': '#ff77e9',
       'bermuda': '#78dcca',
-      'light-gray': '#181818'
+      'light-gray': '#181818',
+      'black': '#000000',
     },
     extend: {},
   },

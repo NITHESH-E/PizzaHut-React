@@ -1,20 +1,20 @@
 
 .about{
     color: rgb(255, 255, 255);
+    margin-top: 10px;
 }
 
 .MainA{
     background-color: #020202;
     min-height: 100vh;
     font-size: larger;
-    margin-top: 10px;
-    padding-left: 10px;
     font-family: "Sree Krushnadevaraya", serif;
     font-weight: 400;
     font-style: normal;
 }
 .branch{
     color: red;
+    margin-top: 20px;
 }
 .branches{
     padding-top: 15px;
@@ -23,6 +23,7 @@
     color: aliceblue;
 }
 .footer{
-    margin-top: 20px;
+
+    margin-top: 160px;
     
 }

@@ -1,37 +1,40 @@
-.img_N{
-    width:400px;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.img_N {
+    width: 400px;
     margin-left: 25px;
     margin-top: 30px;
     cursor: pointer;
 }
-.Main{
-    background: #454545;
-    
-}
-.Main:hover{
-    transform: scale(0.9);
-    transition-duration: 500ms ease-in-out;
 
+.Main {
+    background: #454545;
+    transition-duration: 800ms ease-in-out;
 }
-.title{
+
+.Main:hover {
+    transform: scale(1.01);
+}
+
+.title {
     color: aliceblue;
 }
 
-.wid2{
+.wid2 {
     max-width: 100%;
 }
 
-.wid{
+.wid {
     max-width: 25%;
 }
-.list-T{
+
+.list-T {
     margin-top: 2px;
-    margin-left: 25px;
-    font-size: large;
-    font-family: "Sree Krushnadevaraya", serif;
+    margin-left: ;
+    font-family: "Jockey One", sans-serif;
     font-weight: 400;
     font-style: normal;
     color: aliceblue;
 }
-
-
